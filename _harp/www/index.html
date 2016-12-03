@@ -10,29 +10,77 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-       <div class="pure-g">
-      <div class="pure-u-1">
-            <h1>Titel van de site</h1>
-      </div>
-      <div class="pure-u-1 pure-u-md-1-4">
-               <ul>
-                     <li><a href="#">Site-element 1</a></li>
-                     <li><a href="#">Site-element 2</a></li>
-                     <li><a href="#">Site-element 3</a></li>
-                     <li><a href="#">Site-element 4</a></li>
-                     <li><a href="#">Site-element 5</a></li>
-               </ul>
+       <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>IT 3- Opdracht8</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<script src="/path/to/isotope.pkgd.min.js"></script>
 
-      </div>
-      <div class="pure-u-1 pure-u-md-3-4">
-            <h2>Subtitel 1</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            <h2>Subtitel 1</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            <h2>Subtitel 1</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-      </div>
-</div>
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <html>
+<body>
+   <input type="checkbox" id="drawer-toggle" name="drawer-toggle">
+   <label for="drawer-toggle" id="drawer-toggle-label"></label>
+   <header>KARLIEN HUYGELS</header>
+   <div id="drawer" class="button-group filters-button-group">
+      <button class="button is-checked" data-filter="*">show all</button>
+      <button class="button bwebdesign" data-filter=".webdesign">Webdesign</button>
+      <button class="button bvideo" data-filter=".video">Video</button>
+      <button class="button c4d" data-filter=".c4d">3D</button>
+      <button class="button bother" data-filter=".other">Other</button>
+   </div>
+   <div id="page-content">
+      <div class="grid">
+        <div class="grid-item other" data-category="other">
+          <img src="http://68.media.tumblr.com/c641aa15daceaac640665d80262d4a9f/tumblr_oglggrAIq71vso4dpo3_1280.png">
+        </div>
+        <div class="grid-item video" data-category="video">
+          <iframe src="https://www.youtube.com/embed/BW8_6e4nMyk" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item webdesign" data-category="webdesign">
+          <img src="http://68.media.tumblr.com/056f5681931bd852295e69571f769a3b/tumblr_ofz0f1FzeX1vso4dpo1_1280.jpg">
+        </div>
+        <div class="grid-item other" data-category="other">
+          <img src="http://68.media.tumblr.com/b619fe44627f6e2676db61458902afd2/tumblr_of8zqbBeYw1vso4dpo2_1280.png">
+        </div>
+        <div class="grid-item c4d" data-category="c4d">
+          <img src="https://68.media.tumblr.com/3b2f8928bc0671a6625a285330801351/tumblr_oglgbry0su1vso4dpo3_400.jpg">
+        </div>
+        <div class="grid-item webdesign" data-category="webdesign">
+          <img src="https://s16.postimg.org/o9pfstg8l/opdracht8_01.jpg">
+        </div>
+        <div class="grid-item other" data-category="other">
+          <img src="http://68.media.tumblr.com/2be81c6fe80df0ea67a59f82a1d7abe4/tumblr_ob6wxt0j3f1vso4dpo2_1280.png">
+        </div>
+        <div class="grid-item other" data-category="other">
+          <img src="http://68.media.tumblr.com/e273b0ef0743b7671ecb452a31daa018/tumblr_oec1u6JRaX1vso4dpo1_1280.jpg">
+        </div>
+        <div class="grid-item webdesign" data-category="webdesign">
+          <img src="https://s18.postimg.org/5gf9axnvd/opdracht8_02.jpg">
+        </div>
+     </div>
+   </div>
+</body>
+</html>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pure.js/2.83/pure.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+<script src="http://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
 	     <script src="assets/javascripts/application.js"></script>
 	</body>
 </html>
