@@ -1,5 +1,4 @@
 /*GENERAL*/
-$accent-color: mediumaquamarine;
 
 html,body {
   height: 100%;
@@ -34,15 +33,15 @@ iframe{
 
 .button:hover {
   background-color: white;
-  border-color: $accent-color;
+  border-color: mediumaquamarine;
   transition: all 0.25s ease;
-  color: $accent-color;
+  color: mediumaquamarine;
 }
 
 .button:active,
 .button.is-checked {
-  background-color: $accent-color;
-  border-color: $accent-color;
+  background-color: mediumaquamarine;
+  border-color: mediumaquamarine;
   color: white;
 }
 
@@ -117,10 +116,10 @@ we're going to style the label instead */
   position: absolute;
   height: 2px;
   width: 24px;
-  background: $accent-color;
+  background: mediumaquamarine;
   left: 13px;
   top: 18px;
-  box-shadow: 0 6px 0 $accent-color, 0 12px 0 $accent-color;
+  box-shadow: 0 6px 0 mediumaquamarine, 0 12px 0 mediumaquamarine;
 }
 
 header {
